@@ -1,11 +1,64 @@
-body {
-  font-family: Helvetica, Arial, Helvetica, sans-serif;
-  background-color: tomato;
+/* remove default setting with wildcard */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-/*Gradient Text*/
-#gradient {
+/* apply style to <header> */
+header {
+  padding: 20px 35px;
+  background-color: #1e1b2a;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  display: inline;
+}
+/* Gradient Text */
+header #gradient {
   font-size: 72px;
   background: linear-gradient(to right, #00a9f1, #cf00f1);
   -webkit-background-clip: text;
   color: transparent;
+}
+
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
+
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+footer {
+  background-color: #1e1b2a;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2 {
+  display: inline;
+  color: #fce138;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
 }

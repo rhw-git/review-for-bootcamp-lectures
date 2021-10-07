@@ -31,17 +31,18 @@
     </header>
 
     <!-- hero/jumbotron-->
-    <section>
+    <section class="hero">
       <div>
-        <h3>Get Started Today!</h3>
-        <p>Fill out this form and ....</p>
-        <form>
+        <form class="hero-form">
+          <h3>Get Started Today!</h3>
+          <p>Fill out this form and ....</p>
           <label for="name"> Full Name</label>
           <input
             type="text"
             placeholder="First Name, Last Name"
             name="name"
             id="name"
+            class="form-input"
           />
           <label for="email">Your Email</label>
           <input
@@ -49,13 +50,15 @@
             placeholder="xxx@gmail.com"
             name="email"
             id="email"
+            class="form-input"
           />
           <label for="phone">Your Cell</label>
           <input
             type="tel"
             placeholder="(xxx)-xxx-xxxx"
             name="phone"
-            class="phone"
+            id="phone"
+            class="form-input"
           />
           <p>
             Have you worked out witha trainer before?
